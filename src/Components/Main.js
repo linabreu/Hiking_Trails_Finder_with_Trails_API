@@ -19,7 +19,7 @@ export default function Main() {
         let coords =  await fetch(coordUrl, {
                 method: 'GET',
                 headers: {
-                    'X-RapidAPI-Key': '31aaac473cmsh24f12cd878b809bp1017fdjsnfe3bdc55c3a9',
+                    'X-RapidAPI-Key': 'your key here',
                     'X-RapidAPI-Host': 'forward-reverse-geocoding.p.rapidapi.com'
                 }});
 
@@ -39,7 +39,7 @@ export default function Main() {
             let trails = await fetch(trailUrl, {
                 method: 'GET',
                 headers: {
-                    "X-RapidAPI-Key": "31aaac473cmsh24f12cd878b809bp1017fdjsnfe3bdc55c3a9",
+                    "X-RapidAPI-Key": "your key here",
                     "Cookie": "AWSELB=7FEB93771E9434A416BC6005803D1F7E6A0C7818561B8EF42CF88CF2A508013FFC20619E082E74A3DFA70646B785AC869C32F81DE591A1EA166CEFB72B1BF7C07F2F20CE2F; AWSELBCORS=7FEB93771E9434A416BC6005803D1F7E6A0C7818561B8EF42CF88CF2A508013FFC20619E082E74A3DFA70646B785AC869C32F81DE591A1EA166CEFB72B1BF7C07F2F20CE2F"
                 },
                 redirect: 'follow'
